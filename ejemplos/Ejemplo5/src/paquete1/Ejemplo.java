@@ -28,7 +28,7 @@ public class Ejemplo {
         System.out.println("Ingrese el número a evaluar");
         numeroIngresado = entrada.nextInt();
 
-        if (numeroIngresado % 2 == 0) {
+        if (numeroIngresado % 2 == 0) { //% modulo= residuo
             System.out.printf("Resultado %s\n", mensajeUno);
         } else {
             System.out.printf("Resultado %s\n", mensajeDos);
