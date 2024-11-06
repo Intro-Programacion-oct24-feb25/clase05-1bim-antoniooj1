@@ -29,7 +29,7 @@ public class Ejemplo4 {
         System.out.println("Ingrese el promedio por favor");
         double promedio = entrada.nextDouble();
         System.out.println("Ingrese el nombre por favor");
-        entrada.nextDouble();
+        entrada.nextLine();
         String miNombre = entrada.nextLine();
 
         if (promedio >= 7.5) {
