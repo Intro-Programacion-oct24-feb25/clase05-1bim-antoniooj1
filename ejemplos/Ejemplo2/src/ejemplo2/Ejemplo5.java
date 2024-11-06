@@ -40,16 +40,22 @@ public class Ejemplo5 {
         
         if (promedio >= 7.5) {
             System.out.printf("Estudiante aprobado con un "
-                    +"promedio: %.2f\nLas notas ingresadas fueron: \n"
-                    +"\tNota1: %.2f\n"
-                    +"\tNota1: %.2\n\n"
-                    +"Secretario General\n",
-                    promedio,
-                    nota1,
+                    + "promedio: %.2f\nLas notas ingresadas fueron:\n"
+                    + "\tNota1: %.2f\n"
+                    + "\tNota2: %.2f\n\n"
+                    + "Secretario General\n", 
+                    promedio, 
+                    nota1, 
                     nota2);
         }else{
-            System.out.printf("Estudiante reprobado con un "
-                    + "promedio: %.2f\n", promedio);
+            System.out.printf("Estudiante reprobad con un "
+                    + "promedio: %.2f\nLas notas ingresadas fueron:\n"
+                    + "\tNota1: %.2f\n"
+                    + "\tNota2: %.2f\n\n"
+                    + "Secretario General\n", 
+                    promedio, 
+                    nota1, 
+                    nota2);
         }
     }
     
